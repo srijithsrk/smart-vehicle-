@@ -59,10 +59,10 @@ print("  ")
 print (F)
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
-    sender_email = "srijith698@gmail.com"  # Enter your address
-    receiver_email = "srijith125@gmail.com"  # Enter receiver address
+    sender_email = "abc123@gmail.com"  # Enter your address
+    receiver_email = "xyz123@gmail.com"  # Enter receiver address
     password = '1234567'
-    message ="""\
+    message ="""\                          # an email sent to reciever
         Subject: Hello
         
         I am here. This is my Refference ID:101 in EMERGENCY Situation you can locate me at the given location http://maps.google.com/?q=%s,%s"""%(E,F)
